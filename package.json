@@ -4,14 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lite": "lite-server",
     "start": "npm run lite",
+    "lite": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Huey Ru Strauss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hstrauss3520/rp_theatre_reservation.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hstrauss3520/rp_theatre_reservation/issues"
+  },
+  "homepage": "https://github.com/hstrauss3520/rp_theatre_reservation#readme",
   "devDependencies": {
-    "light-server": "^2.3.0"
+    "lite-server": "^2.3.0"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
