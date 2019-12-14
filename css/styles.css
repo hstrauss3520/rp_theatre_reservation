@@ -60,9 +60,14 @@ h4{
   bottom: 0; }
 
 #loginModal .modal-header {
-  background-color: #901CAD;
+  background-color: #17A2B8;
   color: #ffffff; }
 
 #reserveModal .modal-header {
   background-color: #17A2B8;
   color: #ffffff; }
+
+#confirmModal .modal-header {
+  background-color: #17A2B8;
+  color: #ffffff; }
+
