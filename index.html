@@ -90,17 +90,17 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" >
         <div class="row row-content">
             <div class="col-md-8 mx-auto">
-                <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+                <div id="homeCarousel"  class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#homeCarousel" data-slide-to="1"></li>
                         <li data-target="#homeCarousel" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item active" style="max-height: 400px !important; overflow: hidden; ">
                             <img class="d-block w-100" src="img/anastasia.jpeg" alt="Anastasia" />
                             <div class="carousel-caption">
                                 <h3> Anastasia </h3>
@@ -108,7 +108,7 @@
                                     Broadway’s got a bright new star – its name is Anastasia.” </p>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" style="max-height: 400px !important; overflow: hidden; ">
                             <img class="d-block w-100" src="img/Annie.jpeg" alt="Annie" />
                             <div class="carousel-caption">
                                 <h3> Annie </h3>
@@ -116,7 +116,7 @@
                                     new production feels as fresh as a Lower East Side bialy on a Sunday morning</p>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" style="max-height: 400px !important; overflow: hidden; ">
                             <img class="d-block w-100" src="img/les miserbles.jpeg" alt="Les Miserables" />
                             <div class="carousel-caption">
                                 <h3> Les Miserables </h3>
@@ -142,36 +142,239 @@
             </div>
         </div>
 
+        <div class="row row-content">
+            <div class="col-4">
+                <h3>RayPec Theatre Presents....</h3>
+                <!--Acordian starts here-->
+                <div id="accordion" style="min-width:180px;">
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a data-toggle="collapse" data-target="#anastasia" id="button_anastasia">
+                                    Anastasia <small>Fall Musical</small>
+                                </a>
+                            </h4>
+                            <div class="collapse show" id="anastasia" data-parent="#accordion">
+                                <div class="card-body">
 
-        <footer>
-            <div>
-                <h5>Links</h5>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div>
-                <h5>Social</h5>
-                <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i>Instagram</a>
-                <a class="btn btn-social-icon btn-facebook"href="http://facebook.com/"><i class="fa fa-facebook"></i>Facebook</a>
-                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i>Twitter</a>
-                <a class="btn btn-social-icon btn-google"href="http://youtube.com/"><i class="fa fa-youtube"></i>YouTube</a>
-            </div>
-            <div>
-                <a role="button" class="btn btn-link" href="tel:+12065551234">  <i class="fa fa-phone fa-lg text-primary"></i>Tel: 1-206-555-1234
-                </a>
-                <br />
-                <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope fa-lg text-primary"></i>campsites@nucamp.co
-                </a>
-            </div>
-        </footer>
+                                    <p class="d-none d-sm-block text-primary">
+                                        Anastasia is a musical with music and lyrics by Lynn Ahrens and Stephen
+                                        Flaherty,
+                                        and a book by Terrence McNally. Based on the 1997 film of the same name, the
+                                        musical
+                                        adapts the legend of Grand Duchess Anastasia Nikolaevna of Russia, who could
+                                        have
+                                        escaped the execution of her family.
+                                        <!--  show description goes here -->
+                                    </p>
+                                </div>
+                            </div>
 
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="js/scripts.js"></script>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a data-toggle="collapse" data-target="#les-miserables" id="button_lesmiserables">
+                                    Les Miserables <small>Winter Musical</small>
+                                </a>
+                            </h4>
+                            <div class="collapse" id="les-miserables" data-parent="#accordion">
+                                <div class="card-body">
+
+                                    <p class="d-none d-sm-block text-primary">
+                                        In 19th-century France, Jean Valjean, who for decades has been hunted by the
+                                        ruthless policeman Javert after breaking parole, agrees to care for a factory
+                                        worker's daughter. The decision changes their lives forever.
+                                        <!--  show description goes here -->
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a data-toggle="collapse" data-target="#annie" id="button_annie">
+                                    Annie <small>Spring Musical</small>
+                                </a>
+                            </h4>
+                            <div class="collapse" id="annie" data-parent="#accordion">
+                                <div class="card-body">
+
+                                    <p class="d-none d-sm-block text-primary">
+                                        In the depths of the 1930's, Annie is a fiery young orphan girl who must live in
+                                        a
+                                        miserable orphanage run by the tyrannical Miss Hannigan. Her seemingly hopeless
+                                        situation changes dramatically when she is selected to spend a short time at the
+                                        residence of the wealthy munitions industrialist, Oliver Warbucks.
+                                        <!--  show description goes here -->
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <!--Acordian ends here-->
+            </div>
+            <div class="col" >
+                <p id="main_description">
+                    
+                </p>
+                <div class="btn btn-lg btn-primary mr-0 mt-auto" id="proceedButton">
+                    Proceed
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div id="reserveModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title"> Select Your Seat(s)</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-8">
+                                <!-- seat map goes here-->
+                                <img class="d-block w-100" src="img/Seat Map.png" alt="Anastasia" />
+                            </div>
+
+                            <!-- Dates drop down starts here-->
+                            <div class="col">
+                                <div class="container-fluid">
+
+                                    <div class="row">
+                                        <div class="dropdown mt-3">
+                                            <button class="btn btn-secondary dropdown-toggle pt-auto" type="button"
+                                                id="showdate1" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                December 10, 2019
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="showdate1">
+                                                <a class="dropdown-item" href="#">2:00 pm</a>
+                                                <a class="dropdown-item" href="#">7:00 pm</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="dropdown mt-3">
+                                            <button class="btn btn-secondary dropdown-toggle" type="button"
+                                                id="showdate2" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                December 11, 2019
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="showdate2">
+                                                <a class="dropdown-item" href="#">2:00 pm</a>
+                                                <a class="dropdown-item" href="#">7:00 pm</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Dates drop down ends here-->
+                        </div>
+
+
+                        <!-- Cancel and Reserve buttons start here-->
+                        <div class="row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto"
+                                data-dismiss="modal">Cancel</button>
+                            <button type="button" id="reserveButton"
+                                class="btn btn-primary btn-sm ml-1 mr-3">Reserve</button>
+                        </div>
+                        <!-- Cancel and Reserve button end here-->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="confirmModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title"> Order Confirmation</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    <h6>Thank you for your order. Your order detail is sent to your email. Enjoy the show. </h6>
+                                </p>
+                            </div>
+
+                        </div>
+                        <!-- Cancel and Reserve buttons start here-->
+                        <div class="row">
+                            <button type="button" class="btn btn-secondary btn-lg ml-auto"
+                                data-dismiss="modal">OK</button>
+                            
+                        </div>
+                        <!-- Cancel and Reserve button end here-->
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <footer class="site-footer">
+        <div class="container"><img src="img/wide rp img.jpeg" class="img-fluid"  width="100%" height= "auto" alt="Responsive image">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                            class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+18168921400"><i class="fa fa-phone"></i>
+                        1-816-892-1400</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:raypectheare@raypec.org"><i
+                            class="fa fa-envelope-o"></i> raypectheare@raypec.org</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

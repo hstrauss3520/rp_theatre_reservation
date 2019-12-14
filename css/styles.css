@@ -1,5 +1,7 @@
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif; 
+  
+}
 
 h1, h2, h3 {
   font-family: "Lobster", cursive; }
@@ -12,7 +14,8 @@ header h2 {
 
 .site-footer {
   background-image: linear-gradient(#cec8ff, white);
-  padding: 20px 0px; }
+  padding: 20px 0px; 
+  }
 
 .jumbotron {
   margin: 0;
@@ -26,21 +29,23 @@ header h2 {
   min-height: 200px; }
 
 .navbar {
-  background-color: rgb(236, 206, 32); }
+  background-color: rgb(236, 206, 32); 
 
-  .navbar-custom { 
-    background-color: rgb(236, 206, 32); 
-    
 } 
 
 .navbar-custom .navbar-text { 
-    color: #000000; 
+  color: #000000; 
 } 
 
 .navbar-custom a{
   color: #000000; 
   font-weight: bold;
 
+}
+
+h4{
+  color: #901CAD;
+  font-weight: bolder;
 }
 
 .carousel-caption {
